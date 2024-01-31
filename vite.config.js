@@ -5,7 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   build: {
-    lib: {},
     rollupOptions: {
       external: ["react", "react-router", "react-router-dom", "react-redux"],
       output: {
