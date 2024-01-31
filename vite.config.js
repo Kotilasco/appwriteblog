@@ -13,6 +13,7 @@ export default defineConfig({
         "react-redux",
         "@reduxjs/toolkit",
         "html-react-parser",
+        "react-hook-form",
       ],
       output: {
         globals: {
