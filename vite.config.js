@@ -14,6 +14,7 @@ export default defineConfig({
         "@reduxjs/toolkit",
         "html-react-parser",
         "react-hook-form",
+        "@tinymce/tinymce-react",
       ],
       output: {
         globals: {
