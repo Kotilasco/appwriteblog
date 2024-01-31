@@ -12,6 +12,7 @@ export default defineConfig({
         "react-router-dom",
         "react-redux",
         "@reduxjs/toolkit",
+        "html-react-parser",
       ],
       output: {
         globals: {
