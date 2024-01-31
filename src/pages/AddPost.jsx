@@ -1,0 +1,14 @@
+import PostForm from "../components/PostForm/PostForm";
+import Container from "../components/container/Container";
+
+function AddPost() {
+  return (
+    <div className="py-6">
+      <Container>
+        <PostForm />
+      </Container>
+    </div>
+  );
+}
+
+export default AddPost;
